@@ -31,7 +31,7 @@ echo -e "$(bash --version | grep 'bash')"
    sudo systemctl enable --now grafana-server
 
 #  Access Grafana's web UI by going to IPADDRESS:3000.
-   RESPONSE=$( curl http://54.193.104.253:3000 )
+   RESPONSE=$( curl http://35.184.101.136:3000 )
    # TODO: 
 
 # Log in with the username admin and the password admin. Reset the password when prompted.
